@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "build_code": "a8a5cdd",
+  "full_version": "v0.0.1-android-dev-a8a5cdd",
+  "environment": "dev",
+  "changelog": "Release notes not available.",
+  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.1-android-dev-a8a5cdd/mtc-infomedhlg-Android-v0.0.1-dev-a8a5cdd.apk",
+  "all_releases_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases",
+  "date": "2026-02-19",
+  "required": false,
+  "min_version": "0.0.1"
+}
