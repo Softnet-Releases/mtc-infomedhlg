@@ -1,12 +1,12 @@
 {
   "version": "0.0.1",
-  "build_code": "e1240bb",
-  "full_version": "v0.0.1-android-dev-e1240bb",
+  "build_code": "aa3e8f5",
+  "full_version": "v0.0.1-android-dev-aa3e8f5",
   "environment": "dev",
   "changelog": "Release notes not available.",
-  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.1-android-dev-e1240bb/mtc-infomedhlg-Android-v0.0.1-dev-e1240bb.apk",
+  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.1-android-dev-aa3e8f5/mtc-infomedhlg-Android-v0.0.1-dev-aa3e8f5.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases",
-  "date": "2026-03-01",
+  "date": "2026-03-18",
   "required": false,
   "min_version": "0.0.1"
 }
