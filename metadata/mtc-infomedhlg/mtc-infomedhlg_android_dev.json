@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
-  "build_code": "65e0869",
-  "full_version": "v0.0.1-android-dev-65e0869",
+  "version": "0.0.3",
+  "build_code": "b892b6a",
+  "full_version": "v0.0.3-android-dev-b892b6a",
   "environment": "dev",
   "changelog": "### Features\n- Hero card rediseñado: estado \"Con Corriente\" / \"Sin Corriente\" con punto pulsante animado en ambos estados\n- Mostrar hora de restablecimiento en hero card: \"restablecida a las HH:MM PM\" cuando hay corriente\n- Mostrar duración del corte anterior en hero card: \"Ant. corte: 45 min\" debajo del estado online\n- Hero card offline: texto \"sin luz desde las HH:MM PM\" como contexto temporal\n- Stat tile \"Prom. por Corte\": duración promedio por corte (reemplaza latencia, irrelevante para corriente)\n- Gráfico de barras con eje Y en horas/minutos reales (formato h/m) — máximo fijo 24h por día\n- Selector de gráfico: Cortes (defecto) y % Corriente (se eliminó latencia)\n- Filas \"Corriente restablecida\" en lista de cortes: marcador verde entre cada corte finalizado\n- Colores de severidad en cortes: rojo (activo/>2h), naranja (#f97316, 30m–2h), naranja claro (#fb923c, <30m) — eliminado el amarillo confuso\n- Widgets skeleton para indicar carga en lugar de pantallas vacías\n\n### Improvements\n- Backend: período \"día\" ahora comienza desde medianoche (00:00) en vez de ventana deslizante de 24h\n- Backend: `total_uptime_seconds` calculado desde el inicio real del período, no por días × 86400\n- Backend: nuevo campo `last_outage_duration_seconds` y `last_outage_ended_at` en respuesta de stats\n- Hero card derecha: eliminado el label redundante \"con corriente\" (ya visible en la izquierda)\n- Gráfico barras: conversión por día real (`pings / totalPings × 24`) evita valores imposibles (>24h)\n- Frontend web recibe corrección del backend automáticamente (sin cambios en cliente)\n\n### Fixes\n- Gráfico mostraba valores imposibles (ej. 49h con corriente) — corregido con conversión proporcional por día\n- Período \"hoy\" omitía cortes de madrugada por usar ventana de 24h en vez de día calendario\n- Color amarillo en lista de cortes causaba confusión (parecía un estado diferente a sin luz)\n\n### Removed\n- Módulo completo de actualizaciones OTA (ota_update, UpdateService, pantalla de actualizaciones)\n- Stat tile de latencia promedio — sin relevancia en monitoreo de corriente eléctrica",
-  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.1-android-dev-65e0869/mtc-infomedhlg-Android-v0.0.1-dev-65e0869.apk",
+  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.3-android-dev-b892b6a/mtc-infomedhlg-Android-v0.0.3-dev-b892b6a.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases",
-  "date": "2026-03-21",
+  "date": "2026-03-22",
   "required": false,
   "min_version": "0.0.1"
 }
