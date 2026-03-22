@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
-  "build_code": "3ea659c",
-  "full_version": "v0.0.1-android",
+  "version": "0.0.2",
+  "build_code": "f5b0534",
+  "full_version": "v0.0.2-android",
   "environment": "pro",
-  "changelog": "### Features\n- Hero card rediseñado: \"Con Corriente\" / \"Sin Corriente\" con punto pulsante animado\n- Hora de restablecimiento en pantalla principal: \"restablecida a las HH:MM PM\"\n- Duración del corte anterior visible en hero card cuando hay corriente\n- Stat tile \"Prom. por Corte\": promedio de duración por corte de luz\n- Gráfico de barras con eje Y en horas reales (máx. 24h/día, formato h/m)\n- Filas \"Corriente restablecida\" en historial de cortes con marcador verde\n- Colores de severidad mejorados en lista de cortes (rojo/naranja, sin amarillo)\n- Widgets skeleton de carga\n\n### Improvements\n- Período \"hoy\" corre desde medianoche exacta (cortes de madrugada ahora incluidos)\n- Estadística de tiempo con corriente calculada con precisión desde inicio de período\n\n### Removed\n- Módulo de actualizaciones OTA\n- Stat tile de latencia (no aplica a monitoreo de corriente eléctrica)",
-  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.1-android/mtc-infomedhlg-Android-v0.0.1.apk",
+  "changelog": "\n### Novedades\n- La pantalla principal ahora muestra cuándo se restableció la corriente (\"restablecida a las 2:30 PM\")\n- Se muestra la duración del corte anterior cuando hay corriente\n- El historial de cortes ahora marca en verde cada vez que se restableció la luz\n- Los colores en la lista de cortes ahora indican mejor la gravedad (rojo = largo, naranja = corto)\n- La estadística de corte promedio reemplaza a la latencia, que no era útil aquí\n\n### Correcciones\n- Los cortes de madrugada ahora aparecen correctamente al ver las estadísticas de \"hoy\"\n- Las gráficas ya no muestran valores imposibles (antes podían mostrar más de 24h en un día)\n\n---",
+  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.2-android/mtc-infomedhlg-Android-v0.0.2.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases",
-  "date": "2026-03-21",
+  "date": "2026-03-22",
   "required": false,
   "min_version": "0.0.1"
 }
