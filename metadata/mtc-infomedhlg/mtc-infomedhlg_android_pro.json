@@ -1,12 +1,12 @@
 {
-  "version": "0.0.13",
-  "build_code": "8a276f6",
-  "full_version": "v0.0.13-android",
+  "version": "0.0.14",
+  "build_code": "b20410b",
+  "full_version": "v0.0.14-android",
   "environment": "pro",
   "changelog": "\n### Novedades\n- La pantalla principal ahora muestra cuándo se restableció la corriente (\"restablecida a las 2:30 PM\")\n- Se muestra la duración del corte anterior cuando hay corriente\n- El historial de cortes ahora marca en verde cada vez que se restableció la luz\n- Los colores en la lista de cortes ahora indican mejor la gravedad (rojo = largo, naranja = corto)\n- La estadística de corte promedio reemplaza a la latencia, que no era útil aquí\n\n### Correcciones\n- Los cortes de madrugada ahora aparecen correctamente al ver las estadísticas de \"hoy\"\n- Las gráficas ya no muestran valores imposibles (antes podían mostrar más de 24h en un día)\n\n---",
-  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.13-android/mtc-infomedhlg-Android-v0.0.13.apk",
+  "release_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases/download/v0.0.14-android/mtc-infomedhlg-Android-v0.0.14.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/mtc-infomedhlg/releases",
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "required": false,
   "min_version": "0.0.1"
 }
